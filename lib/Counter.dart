@@ -3,7 +3,7 @@ class Counter {
 
   int getValue() => _value;
 
-  void increment() => _value+=2;
+  void increment() => _value+=3;
 
   void decrement() => _value--;
 }
