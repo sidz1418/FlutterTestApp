@@ -10,13 +10,13 @@ void main() {
     test('Test increment', () {
       final counter = Counter();
       final initVal = counter.getValue();
-      counter.add();
+      counter.increment();
       expect(counter.getValue(), initVal + 1);
     });
     test('Test decrement', () {
       final counter = Counter();
       final initVal = counter.getValue();
-      counter.sub();
+      counter.decrement();
       expect(counter.getValue(), initVal - 1);
     });
   });
